@@ -5,7 +5,7 @@ This code was created as a supplement to a Database course within the Harvard Ex
 
 Do not expect error checks, nice abstraction, or...well, you already know. Its literally one python file :). This file takes in only a MongoDB connection string as a parameter. 
 
-Ex: “mongodb+srv://<username>:<password>@<yourcluster>/myFirstDatabase?retryWrites=true&w=major"
+Ex: “mongodb+srv://<<username>>:<<password>>@<<yourcluster>>/myFirstDatabase?retryWrites=true&w=major"
 
 You don't need to change the myFirstDatabase as the code is hardcoded to the database and collections names that I created in my MongoDB Cloud database. The DB and Collections are named world_information and countries. If you created a cluster before stumbling upon this code, you can update the script to use your db and collections name. 
   
